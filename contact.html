@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Amina Okafor</a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html">Planner</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page contact-page">
+      <section class="card form-card">
+        <h1>Contact Me</h1>
+        <p>Feel free to reach out for collaboration, feedback, or academic opportunities.</p>
+
+        <form id="contactForm" novalidate>
+          <label>
+            Name
+            <input type="text" id="name" name="name" />
+          </label>
+          <label>
+            Email Address
+            <input type="email" id="email" name="email" />
+          </label>
+          <label>
+            Phone Number
+            <input type="tel" id="phone" name="phone" />
+          </label>
+          <label>
+            Message
+            <textarea id="message" name="message" rows="5"></textarea>
+          </label>
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Amina Okafor. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academic Planner | Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="planner">
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html">Amina Okafor</a>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html" class="active">Planner</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container page planner-page">
+      <section class="card planner-card">
+        <h1>Academic Planner</h1>
+        <p>Organize assignments, study sessions, and deadlines in one place.</p>
+
+        <form id="taskForm" class="task-form">
+          <input id="taskInput" type="text" placeholder="Add a new task" required />
+          <button type="submit" class="btn">Add Task</button>
+        </form>
+
+        <ul id="taskList" class="task-list"></ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Amina Okafor. Built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
